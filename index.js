@@ -6,6 +6,18 @@ function submit(){
     number  = document.getElementById('number').value;
     subject = document.getElementById('subject').value;
     message = document.getElementById('messege').value;
+    
+    console.log(typeof number);
 
-    console.log(name,email,number,subject,message);
+    if(!isNaN(name)){
+        window.alert("name should not number");
+    }
+
+    if(isNaN(number)){
+        window.alert("number phone must be  number");
+    }
+
+    let mail = document.createElement('a');
+    mail.href=`mailto:${email}?subject=${subject}&body=hay, my name ${name}, ${subject}, ${message}`;
+    mail.click();
 }
