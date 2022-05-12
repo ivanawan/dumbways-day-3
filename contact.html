@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left-side">
+            <!-- icon -->
+            <img src="src/brandred.png" alt="">
+            <ul>
+                <li>
+                    <a href="index.html" class="home">Home</a>
+                </li>
+                <li>
+                    <a href="" class="blog">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <a href="contact.html" class="btn-contact">contact me</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div>
+            <label for="">Name</label>
+            <input type="text" id="name" required>
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="text" id="email" required>
+        </div>
+        <div>
+            <label for="phone">phone number</label>
+            <input type="text" id="number" required>
+        </div>
+        <div>
+            <label for="subject">subject</label>
+            <select id="subject"  required>
+                <option value="coding">coding</option>
+                <option value="colab">colab</option>
+                <option value="game">play game</option>
+                <option value="work">work</option>
+                <option value="eat">eat</option>
+            </select>
+        </div>
+        <div>
+            <label for="subject"> your messege</label>
+            <textarea id="messege"  cols="30" rows="10" required></textarea>
+        </div>
+        <button type="submit" onclick="submit()" class="btn-submit">submit</button>
+        <!-- <a href="mailto:ivansetiawanvll@gmail.com">send</a> -->
+    </div>
+</body>
+
+</html>

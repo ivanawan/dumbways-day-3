@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    height: 7vh;
+}
+
+.navbar img{
+    margin-top: 10px;
+    object-fit: cover; 
+    height: 6vh;
+    width:4vw ;
+}
+
+.navbar .left-side{
+    padding-left: 90px;
+    width: 50%;
+    display: flex;
+}
+
+.navbar ul{
+    /* padding: 0px; */
+list-style-type: none;
+}
+
+.navbar .right-side{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-right: 90px;
+}
+
+.navbar ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.navbar .left-side a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .home{
+    /* color: rgb(255, 115, 0); */
+    font-weight: bold;
+}
+
+
+.container{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.container label{
+    font-size: 20px;
+    font-weight: 700;
+}
+.container input,textarea,select{
+    width: 100%;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: rgb(245, 245, 245);
+    border-radius: 4px;
+    height: 30px;
+    margin-bottom:10px;
+    margin-top: 3px;
+}
+
+.container textarea{
+    resize: vertical;
+    height: 60px;
+}
+
+.btn-submit {
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px 30px;
+background-color: rgb(67, 179, 67);
+color: azure;
+border: none;
+border-radius: 10px;
+font-weight: bold;
+}
+
+.gray{
+    background-color: rgb(227, 230, 233);
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width:65rem;
+    margin-top: 3rem;
+    margin-top: 3rem;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding:30px 30px;
+    display: flex;
+    gap: 40px;
+}
+
+.card .kiri{
+width: 70%;
+}
+.card .kiri p{
+    text-align: justify;
+}
+
+.card .kanan{
+background-color: white;
+width: 30%;
+text-align: center;
+border-radius: 7px;
+filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+
+.card .kanan img{
+object-fit: cover; 
+height: 70%;
+width: 100%;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+}
+
+
+.sosmed{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.btn-contact{
+    border-radius: 5px;
+    background-color:rgb(24, 20, 17);
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn-download{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
